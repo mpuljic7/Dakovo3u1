@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171715">
+    <meta name="description" content="Antique je noć. Rōsner je grad. Zona je dan. Otkrij tri različita mjesta u Đakovu.">
+    <title>Antique Bar, Rōsner &amp; Zona | Đakovo</title>
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page">
+    <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
+
+    <header class="site-header site-header--home">
+      <a href="index.html" class="site-mark" aria-label="Početna stranica" data-page-link>
+        <span aria-hidden="true" class="site-mark__bars"><i></i><i></i><i></i></span>
+        <span class="site-mark__text">Đakovo</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Odabir lokala">
+        <a href="antiquebar.html" data-page-link>Antique</a>
+        <a href="rosner.html" data-page-link>Rōsner</a>
+        <a href="zona.html" data-page-link>Zona</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Otvori izbornik" data-menu-toggle>
+        <span>Menu</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M3 7h18M3 17h18" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+      <span class="scroll-progress" aria-hidden="true"></span>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true" data-mobile-menu>
+      <p class="mobile-menu__label">Tri ritma Đakova</p>
+      <nav aria-label="Mobilni odabir lokala">
+        <div><a href="antiquebar.html" data-page-link><span>01</span><strong>Antique</strong><small>Noć</small></a></div>
+        <div><a href="rosner.html" data-page-link><span>02</span><strong>Rōsner</strong><small>Grad</small></a></div>
+        <div><a href="zona.html" data-page-link><span>03</span><strong>Zona</strong><small>Dan</small></a></div>
+      </nav>
+      <div class="mobile-menu__footer"><span>Antique · Rōsner · Zona</span><span>Đakovo</span></div>
+    </div>
+
+    <main id="main-content">
+      <section class="venue-selector" aria-labelledby="venue-selector-title">
+        <h1 id="venue-selector-title" class="sr-only">Antique Bar, Rōsner i Zona — tri mjesta u Đakovu</h1>
+        <div class="venue-selector__intro" aria-hidden="true">
+          <span>Tri mjesta</span><span>Đakovo</span><span>Tri ritma</span>
+        </div>
+        <div class="venue-selector__grid">
+          <article class="venue-panel venue-panel--antique">
+            <a href="antiquebar.html" aria-label="Istraži Antique Bar" data-page-link>
+              <img class="venue-panel__image" src="assets/images/antique/terrace-night-wide.webp" alt="Noćna atmosfera na terasi Antique Bara" width="1475" height="1066" fetchpriority="high">
+              <span class="venue-panel__shade" aria-hidden="true"></span>
+              <span class="venue-panel__index">01 / 03</span>
+              <span class="venue-panel__content">
+                <img class="venue-panel__logo" src="assets/images/antique/logo.png" alt="" width="1942" height="809">
+                <span class="venue-panel__concept">Noć</span>
+                <span class="venue-panel__details"><span>Danju lounge. Vikendom druga energija.</span><span>Jelačićeva · Đakovo</span></span>
+                <span class="venue-panel__cta">Istraži <b aria-hidden="true">↗</b></span>
+              </span>
+            </a>
+          </article>
+
+          <article class="venue-panel venue-panel--rosner">
+            <a href="rosner.html" aria-label="Istraži Rōsner Lounge Bar" data-page-link>
+              <img class="venue-panel__image" src="assets/images/rosner/main.webp" alt="Rōsner Lounge Bar u centru Đakova" width="1448" height="1086" fetchpriority="high">
+              <span class="venue-panel__shade" aria-hidden="true"></span>
+              <span class="venue-panel__index">02 / 03</span>
+              <span class="venue-panel__content">
+                <img class="venue-panel__logo" src="assets/images/rosner/logo.png" alt="" width="1448" height="1086">
+                <span class="venue-panel__concept">Grad</span>
+                <span class="venue-panel__details"><span>Kava. Piće. Grad.</span><span>Centar Đakova</span></span>
+                <span class="venue-panel__cta">Istraži <b aria-hidden="true">↗</b></span>
+              </span>
+            </a>
+          </article>
+
+          <article class="venue-panel venue-panel--zona">
+            <a href="zona.html" aria-label="Istraži Zona Lounge Bar" data-page-link>
+              <img class="venue-panel__image" src="assets/images/zona/interior-3.webp" alt="Dnevni interijer Zona Lounge Bara" width="1269" height="1240" fetchpriority="high">
+              <span class="venue-panel__shade" aria-hidden="true"></span>
+              <span class="venue-panel__index">03 / 03</span>
+              <span class="venue-panel__content">
+                <img class="venue-panel__logo" src="assets/images/zona/logo.png" alt="" width="1672" height="941">
+                <span class="venue-panel__concept">Dan</span>
+                <span class="venue-panel__details"><span>Kava. Zalogaj. Dobro društvo.</span><span>STOP SHOP · Đakovo</span></span>
+                <span class="venue-panel__cta">Istraži <b aria-hidden="true">↗</b></span>
+              </span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-statement">
+        <div class="home-statement__heading" data-reveal>
+          <span>Jedan grad.</span>
+          <h2>Tri mjesta.<br>Tri ritma Đakova.</h2>
+        </div>
+        <div class="home-statement__venues">
+          <div data-reveal><a href="antiquebar.html" data-page-link><span>01</span><strong>Antique</strong><small>Noć</small><b aria-hidden="true">↗</b></a></div>
+          <div data-reveal><a href="rosner.html" data-page-link><span>02</span><strong>Rōsner</strong><small>Grad</small><b aria-hidden="true">↗</b></a></div>
+          <div data-reveal><a href="zona.html" data-page-link><span>03</span><strong>Zona</strong><small>Dan</small><b aria-hidden="true">↗</b></a></div>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>
